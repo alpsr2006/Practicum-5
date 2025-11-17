@@ -1,9 +1,9 @@
 import math, turtle as t
-xc = int(input(': '))
-yc = int(input(': '))
-r = int(input(': '))
-x = int(input(': '))
-y = int(input(': '))
+xc = int(input('Введите координаты центра окружности по Ох: '))
+yc = int(input('Введите координаты центра окружности по Оу: '))
+r = int(input('Введите радиус: '))
+x = int(input('Введите координаты точки по Ох: '))
+y = int(input('Введите координаты точки по Оу: '))
 #Вычисление расстояния от центра до точки
 d = math.sqrt((xc - x) ** 2 + (yc - y) ** 2)
 q = 0
@@ -25,4 +25,5 @@ t.hideturtle()
 t.goto(-60,-130)
 t.write(q)
 t.done()
+
 
